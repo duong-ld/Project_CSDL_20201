@@ -28,7 +28,7 @@ CREATE TABLE "vip" (
 CREATE TABLE "shops" (
 	"id_shop" int NOT NULL,
 	"name_shop" varchar(40) NOT NULL,
-	"isVip" int NOT NULL,
+	"is_vip" int NOT NULL,
 	"id_location" int NOT NULL,
 	"start_date" DATE NOT NULL,
 	CONSTRAINT "shops_pk" PRIMARY KEY ("id_shop")
